@@ -40,8 +40,11 @@ const ProjectDialog = ({ project, onClose }) => {
       >
         {/* Close Button */}
         <button
-          className="absolute bg-primary top-15 right-4 w-8 text-white bg-orange-500 hover:bg-orange-600 rounded p-2 z-70 mt-2"
+          className="absolute bg-primary right-4 w-8 text-white bg-orange-500 hover:bg-orange-600 rounded p-2 z-70"
           onClick={onClose}
+          style={{
+            zIndex: 100, // Ensure the button is above other elements
+          }}
         >
           X
         </button>
@@ -65,7 +68,7 @@ const ProjectDialog = ({ project, onClose }) => {
               {/* Left Arrow */}
               <button
                 onClick={handlePrevImage}
-                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray text-white rounded px-2 shadow-lg hover:bg-gray-200"
+                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-customGray text-white rounded px-2 shadow-lg hover:bg-gray-600"
               >
                 &lt;
               </button>
@@ -73,7 +76,7 @@ const ProjectDialog = ({ project, onClose }) => {
               {/* Right Arrow */}
               <button
                 onClick={handleNextImage}
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray text-white rounded px-2 shadow-lg hover:bg-gray-200"
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-customGray text-white rounded px-2 shadow-lg hover:bg-gray-600"
               >
                 &gt;
               </button>
