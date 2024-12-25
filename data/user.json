@@ -174,14 +174,27 @@
         "id": 5,
         "top": false,
         "width": "300",
-        "image": "/projects/Marham.png",
-        "name": "Marham Clone",
-        "description": "The Marham Clone project is a web-based platform designed to facilitate the process of scheduling doctor's appointments for users. The system allows users to register and browse through various categories of doctors. Users can then select a doctor based on their specialization and book an available appointment slot. On the other side, doctors can register, manage their appointments, and provide necessary recommendations or precautions to the patients.",
-        "category": "Personal Project",
+        "image": "/projects/Ovs2.png",
+        "image2": "/projects/Osv2_Inbox.png",
+        "name": "Outbound Thrive",
+        "description": "The Campaign System project is a real-time, platform-based solution designed to provide users with a seamless and intuitive experience. Built with Next.js, the system features a modern and sleek design, ensuring smooth navigation and interaction. Users can register and authenticate securely using advanced mechanisms, such as OTP (One-Time Password) and email verification, for reliable access. The platform allows for real-time campaign management, offering users the tools they need to create, track, and manage their campaigns with ease, all within a secure and user-friendly environment.",
+        "category": "Client Project",
+        "stack": " Next JS, MongoDB, Tailwind CSS, Java Script",
         "url": ""
       },
       {
         "id": 6,
+        "top": false,
+        "width": "300",
+        "image": "/projects/Marham.png",
+        "name": "Marham Clone",
+        "description": "The Marham Clone project is a web-based platform designed to facilitate the process of scheduling doctor's appointments for users. The system allows users to register and browse through various categories of doctors. Users can then select a doctor based on their specialization and book an available appointment slot. On the other side, doctors can register, manage their appointments, and provide necessary recommendations or precautions to the patients.",
+        "category": "Personal Project",
+        "stack": " PHP, MySqli, HTML, CSS, Java Script",
+        "url": ""
+      },
+      {
+        "id": 7,
         "top": false,
         "width": "300",
         "image": "/projects/Expense.png",
@@ -192,7 +205,7 @@
         "url": ""
       },
       {
-        "id": 7,
+        "id": 8,
         "top": true,
         "width": "250",
         "image": "/projects/Spis1.png",
@@ -203,7 +216,7 @@
         "url": ""
       },
       {
-        "id": 8,
+        "id": 9,
         "width": "250",
         "top": true,
         "image": "/projects/RealEstate.png",
