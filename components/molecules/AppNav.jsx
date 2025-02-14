@@ -55,10 +55,10 @@ const AppNav = () => {
       >
         <Link href="/" className="flex items-center">
           <Image
-            src="/favicon.ico"
+            src="/logo.png"
             alt="Zeeshan Khalid"
-            width={40}
-            height={40}
+            width={120}
+            height={120}
           />
         </Link>
 
